@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=r, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table-->
+     <center>
+    <table border="5">
+        <thead>
+            <th colspan="5">
+                G25 Time Table
+            </th>
+        </thead>
+        <tr>
+            <td>Days/Lectures</td>
+            <td>Lecture 1</td>
+            <td>Lecture 2</td>
+            <td>Lecture 3</td>
+            <td>Lecture 4</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>FEE</td>
+            <td rowspan="2">OOPS</td>
+            <td>DBMS</td>
+            <td>Networking</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>FEE</td>
+            <td>OOPS</td>
+            <td>Networking</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>OOPS</td>
+            <td colspan="2">Networking</td>
+            <td>FEE</td>
+        </tr>
+
+    </table> 
+</center>
+
+    <!-- Forms -->
+     <form action="">
+        <center>
+        <h1>Input field</h1>
+        <input type="text">
+        <br>
+        <input type="password">
+        <br>
+        <input type="number">
+        <br>
+        <input type="color">
+        <br>
+        <input type="date">
+        <hr>
+        <h1>Labels</h1>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Shubham">
+        <button type="submit">Submit</button>
+        <hr>
+        <h1>Checkbox</h1>
+        <label for="age">Age</label>
+        <input type="checkbox" id="age" checked>
+        <hr>
+        <h1>Radio Buttons</h1>
+        <h3>Gender</h3>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female</label> 
+        <br>
+        <input type="radio" name="gender" id="raghav">
+        <label for="gender">Others</label>
+        <hr>
+        <h1>Range</h1>
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="100" step="10" value="30">
+        <hr>
+        <h1>DropDown</h1>
+        <label for="cars">Choose the car</label>
+        <select name="cars" id="cars">
+        <option value="BMW">BMW</option>
+        <option value="Bugatti">Buggati</option>
+        <option value="koeingsangg">koeingsangg</option>
+        <option value="other">Other</option>
+        </select>
+        </center>
+     </form>
+</body>
+</html>
