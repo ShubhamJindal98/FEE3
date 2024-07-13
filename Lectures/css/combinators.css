@@ -1,0 +1,26 @@
+/* Descendent combinator selector */
+
+ul li a{
+    color: red;
+    font-size: 20px;
+}
+
+/* Child combinator selector */
+
+ol > li {
+    background-color: yellow;
+}
+
+/* Adjacent combinator selector */
+
+/* Styling flow is downwards only */
+ 
+h3+p {
+    border-top: 1px solid red;
+}
+
+/* Sibling combinator selector */
+
+div~p {
+    background-color: blue;
+}

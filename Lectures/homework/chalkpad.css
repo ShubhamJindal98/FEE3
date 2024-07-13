@@ -56,6 +56,9 @@ input {
     width: 13px;
     height: 13px;
 }
+.remember:hover {
+    cursor: pointer;
+}
 
 select {
     width: 225px;
