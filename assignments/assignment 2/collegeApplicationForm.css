@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    max-width: 600px;
+    border: 1px solid orange;
+    background-color: bisque;
+}
+
+select {
+    height: 30px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+}
+
+input[type="date"]
+{
+    display: block;
+    width: 390px;
+}
+
+input[type="number"]
+{
+    width: 390px;
+}
