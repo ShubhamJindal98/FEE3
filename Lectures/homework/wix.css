@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div_p1 {
+    height: 40px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+.navbar_table {
+    width: 100%;
+
+}
+.navbar_table {
+    width: 100%;
+    height: 71px;
+    background-color: white;
+    border: 2px solid black;
+}
+.T_shop {
+    background-color: #D6FF38;
+    width: 150px;
+    height: 100%;
+    font-size: 24px;
+    font-family:  poppins-semibold, poppins, sans-serif;
+    text-align: center;
+    font-weight: 650;
+}
+td {
+    border-right: 2px solid black;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+}
+.space {
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.main_hero_h1 {
+    width: 100%;
+    display: block;
+    font-size: 65px;
+    font-family: "arial-black";
+    font: bolder;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.main_hero_h2 {
+    margin-left: 570px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    background-color: #D6FF38;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.hero {
+    display: flex;
+}
+.main_pics {
+    width: 100%;
+    margin-top: 60px;
+}

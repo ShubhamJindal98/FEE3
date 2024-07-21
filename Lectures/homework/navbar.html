@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .flex {
+            display: flex;
+            background-color: black;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+        ul li {
+            list-style: none;
+            display: inline;
+            width: 30px;
+            padding-left: 100px;
+        }
+        @media(max-width:720px) {
+            nav {
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex">
+        <a href="">Home</a>
+        <ul class="flex2">
+            <li><a href="">about</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">contacts</a></li>
+        </ul>
+        <a href="">sign up</a>
+    </nav>
+</body>
+</html>
