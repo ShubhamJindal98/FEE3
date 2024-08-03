@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pickdom_header {
+    height: 54px;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-family: "Helvetica Neue";
+    margin: 0px 0px 1px;
+}
+.header_button {
+    background-color: #82B440;
+    padding: 5px 20px;
+    border-radius: 10%;
+    color: white;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+}
