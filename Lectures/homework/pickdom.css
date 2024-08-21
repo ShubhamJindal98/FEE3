@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 2000px;
+}
+
 .pickdom_header {
     position: fixed;
     top: 0;
@@ -30,7 +34,7 @@
     right: 15px;
 }
 
-.main {
+.hero {
     background-image: url(images/pickdom_hero.webp);
     height: 800px;
     width: 100%;
@@ -87,14 +91,43 @@
 
 .hero_heading {
     color: white;
-    font-size: 60px;
+    font-size: 65px;
     display: flex;
     flex-direction: column;
     padding-left: 150px;
     padding-top: 150px;
     font-family: "Poppins",sans-serif;
+    font-weight: 400;
 }
 
 .bold {
     font-weight: 600;
+}
+
+.hero_button2 {
+    font-family: Verdana;
+    background-color: white;
+    color: #3B1563;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.hero_home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+}
+/* 
+.homeImage {
+    width: 284px;
+    height: 270px;
+} */
+
+figcaption {
+    text-align: center;
 }
