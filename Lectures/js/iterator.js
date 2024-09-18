@@ -1,6 +1,5 @@
 let arr = [1,2,3,4,5];
 console.log(arr[Symbol.iterator]);
-console.log(arr[iterator.next()]);
 
 for(i in arr)
 {
