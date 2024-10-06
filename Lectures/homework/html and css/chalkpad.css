@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(images/Chitkara_University_pic.jpg) no-repeat center center fixed;
+    background: url(/FEE3/Lectures/homework/images/Chitkara_University_pic.jpg) no-repeat center center fixed;
     border-top: 6px red solid;
 }
 
@@ -32,7 +32,8 @@ body {
     padding-left: 20px;
 }
 
-label,select {
+label,
+select {
     display: block;
 }
 
@@ -43,7 +44,7 @@ button {
     color: white;
 }
 
-input[type="text"]:hover input[type="number"]:hover{
+input[type="text"]:hover input[type="number"]:hover {
     border: 1px solid black;
 }
 
@@ -56,6 +57,7 @@ input {
     width: 13px;
     height: 13px;
 }
+
 .remember:hover {
     cursor: pointer;
 }
@@ -75,7 +77,8 @@ select {
     right: 260px;
 }
 
-a, .remember{
+a,
+.remember {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -105,21 +108,27 @@ span {
 .space {
     height: 20px;
 }
+
 .newspace {
     height: 12px;
 }
+
 .abc {
     height: 5px;
 }
+
 .ten {
     height: 10px;
 }
+
 .two {
     height: 2px;
 }
+
 .fourteen {
     height: 14.4px;
 }
+
 .apple {
     display: flex;
     justify-content: space-evenly;

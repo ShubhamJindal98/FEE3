@@ -22,6 +22,7 @@ body {
     font-family: "Helvetica Neue";
     padding-left: 30px;
 }
+
 .header_button {
     background-color: #82B440;
     height: 31px;
@@ -35,7 +36,7 @@ body {
 }
 
 .hero {
-    background-image: url(images/pickdom_hero.webp);
+    background-image: url(/FEE3/Lectures/homework/images/pickdom_hero.webp);
     height: 800px;
     width: 100%;
     background-repeat: no-repeat;
@@ -52,7 +53,8 @@ body {
     align-items: center;
 }
 
-.hero_nav li, .hero_nav a {
+.hero_nav li,
+.hero_nav a {
     list-style-type: none;
     color: white;
     text-decoration: none;
@@ -72,7 +74,7 @@ body {
 
 .hero_nav p {
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     font-weight: bold;
 }
@@ -96,7 +98,7 @@ body {
     flex-direction: column;
     padding-left: 150px;
     padding-top: 150px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
@@ -122,6 +124,7 @@ body {
     height: 700px;
     width: 100%;
 }
+
 /* 
 .homeImage {
     width: 284px;
