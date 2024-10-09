@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industrial CallBack Function</title>
+</head>
+
+<body>
+  <script>
+    function downloadFile(url) {
+      //Let us assume that file is being dowloaded
+      console.log("File is being downloaded");
+      setTimeout(() => {
+        var a = url.split("com/").pop();
+        console.log(`File downloaded successfully ${a}`);
+        compressFile(a);
+      }, 2000);
+
+    }
+    function compressFile(path) {
+      //Let us assume that file is being compressed
+      console.log("file is being compressed");
+      setTimeout(() => {
+        var b = path.replace(".mp3", ".zip");
+        console.log(`File is compressed ${b}`);
+        uploadFile(b);
+      }, 2000);
+
+    }
+    function uploadFile(path) {
+      //Let us assume that file is being uploaded
+      console.log("File is being uploaded");
+      setTimeout(() => {
+        const upl = "https://LocalStorage" + path;
+        console.log(`file is uploaded ${upl}`);
+        console.log("Execution ends");
+      }, 2000);
+
+    }
+    console.log("Execution begins");
+    downloadFile("https://xyzabc/com/abc.mp3");
+  </script>
+</body>
+
+</html>
