@@ -1,0 +1,4 @@
+/* react is a js library
+It provides user interface
+Dynamic and interactive single page app
+*/
