@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+  gap: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+li {
+  list-style: none;
+}
